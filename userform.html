@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<script src="form.js"></script>
+</head>
+<body>
+<form>
+	First Name:<input type="name" name="firstname" id="first_name" placeholder="Enter first name">
+	<br>
+	Last Name:<input type="name" name="lastname" id="last_name" placeholder="Enter last name">
+	<br>
+	Age:<input type="number" name="age" id="userage" min="10" max="25" placeholder="Enter your age ">
+	<br>
+	Description:
+	<br>
+	<textarea name="description" id="userdesc" maxlength="500" placeholder="Tell us about your current emotions"></textarea>
+	<br>
+	Gender:<input type= "radio" id= "gender" name= "gender" value= "Male" >Male</input>
+	<input type= "radio" id= "genderFem" name= "gender" value= "Female" >Female</input>
+	<br>
+	Contact type:<input type="radio" name="contacttype" value="Phone">Phone</input>
+				<input type="radio" name="contacttype" value="Email">E-mail</input>
+    <br>
+   	Contact details:<input type="textbox" name="cnctdetails" id="cntdetails" placeholder="Enter the contact details">
+   	<br>
+   	Select Language:<select id="userlang">
+   		<option value="select language">Select Language</option>
+   		<option value="Hindi">Hindi</option>
+   		<option value="Marathi">Marathi</option>
+   		<option value="English">English</option>
+   	</select>
+   	<br>
+   	Select Day:<select id="userday">
+    <option value="select language">Select Day</option>
+   	<option value="monday">Monday</option>
+   	<option value="tuesday">Tuesday</option>
+   	<option value="wednesday">Wednesday</option>
+   	<option value="thursday">Thursday</option>
+   	<option value="friday">Friday</option>
+   	<option value="saturday">Saturday</option>
+   	<option value="sunday">Sunday</option>
+   	</select>
+   	<br>
+    Select Time:<select id="usertime">
+    <option value="select language">Select Time</option>
+   	<option value="1">1</option>
+   	<option value="2">2</option>
+   	<option value="3">3</option>
+   	<option value="4">4</option>
+   	<option value="5">5</option>
+   	<option value="6">6</option>
+   	<option value="7">7</option>
+   	<option value="8">8</option>
+    <option value="9">9</option>
+   	<option value="10">10</option>
+   	<option value="11">11</option>
+   	<option value="12">12</option>
+   	</select>
+   	<select>
+   		<option value="am">am</option>
+   		<option value="pm">pm</option>
+   	</select>
+   	<br>
+	<button onclick="submit()">Submit</button>
+</form>
+</body>
+</html>
