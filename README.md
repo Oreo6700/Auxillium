@@ -1,7 +1,7 @@
 # Project Auxillium
 
 Here we are trying to make a health wellness platfrom to help people to come out the mental issue by helping them in various ways...
-This platform will help us to connect with the people and the kind of mental issue they are going through and then we can take decisions based
-on the user input which we will recieve in the format of form from our website  a simple appointment form which user will fill to contact with us.
+This platform will help us to connect with the people and the kind of mental issue and based on that we can take decisions.
+We will recieve the request in the format of form on our website a simple appointment form which user will fill to contact with us.
 
-So the basic motto is to make a platform where user can enter their detail as well as the people who want to help other can also join this platform.
+So the basic motto is to make a platform where the people who are through some issues as well as the one who want to help other can also join this platform and serve as a helping hand to help people to come out of this difficult time.
